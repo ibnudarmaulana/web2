@@ -8,6 +8,7 @@ $route['translate_uri_dashes'] = FALSE;
 $route['login']['get'] = 'Login/index';
 $route['login']['post'] = 'Login/auth';
 
+$route['users'] = 'user';
+
 // Route untuk API
-$route['api/users'] = 'api/user';
-$route['api/mahasiswa'] = 'api/mahasiswa';
+$route['api/users'] = 'api/userapi';
